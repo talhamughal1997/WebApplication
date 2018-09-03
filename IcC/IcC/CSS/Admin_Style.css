@@ -1,0 +1,1238 @@
+﻿body::-webkit-scrollbar
+{
+	width:0;
+	height:0;
+	display:none;
+	overflow:hidden;
+	-moz-overflow:hidden;
+}
+.loading-gif
+{
+	margin:auto;
+	padding:0;
+	width:100%;
+	height:100%;
+	background-color:#000;
+	opacity:0;
+	position:fixed;
+	display:none;
+} 
+.loading-gif img
+{
+	margin:0 auto;
+	padding:0;
+	width:20vh;
+	height:20vh;
+}
+
+body
+{
+    min-width:1vh;
+	min-height:1vh;
+	margin:0;
+	padding:0;
+	overflow-y:hidden;
+	background-color:#666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Admin 
+{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100vh;
+	background-color:#CCC;
+	position:absolute;
+	border-radius:4vh;
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Admin-Pic-1 {
+
+    margin:0;
+    width:100%;
+    height:100%;
+    position:absolute;
+    border-radius:4vh 4vh 4vh 4vh;
+    opacity:0;
+}
+#Admin-Pic-2 {
+
+    margin:0;
+    width:100%;
+    height:100%;
+    position:absolute;
+    opacity:0;
+    border-radius:4vh 4vh 4vh 4vh;
+}
+#Admin-Pic-3 {
+
+    margin:0;
+    width:100%;
+    height:100%;
+    position:absolute;
+    opacity:0;
+    border-radius:4vh 4vh 4vh 4vh;
+}
+
+
+
+
+
+
+
+
+
+.Admin  .Admin_Panel {
+
+    margin:10vh 0 0 30vh;
+    padding:10vh;
+    min-width:50vh;
+    min-height:50vh;
+    font-family:sans-serif;
+    font-size:2vh;
+    font-weight:bold;
+    color:black;
+    line-height:10vh;
+    letter-spacing:0.5vh;
+    font-style:italic;
+    border-radius:4vh;
+    box-shadow:inset 0vh 1vh 2vh 1vh #000;
+    background: rgba(0, 0, 0, 0.7);
+    position:absolute;
+}
+.Admin_Panel .Admin_LogIn {
+
+    margin:0 0 0 0;
+    padding:0 3vh 0 3vh;
+    min-width:60vh;
+    min-height:20vh;
+    background-color:rgba(0,0,0,0.40);
+    color:#FFF;
+    border-radius:2vh;
+}
+.Admin_Panel .AdminTxtBox {
+
+    margin:0 2vh 0 2vh;
+    padding:0 2vh;
+    width:20vh;
+    height:2.5vh;
+    font-size:2vh;
+    font-family:sans-serif;
+    font-style:italic;
+    background-color:transparent;
+    color:#FFF;
+    border:0;
+    border-bottom:0.4vh solid #000;
+    border-radius:1vh;
+    transition-duration:1s;
+}
+.Admin_Panel .AdminTxtBox:focus {
+
+    width:30vh;
+    border-bottom:0.5vh solid #f00;
+    background-color:black;
+    color:white;
+    transition-duration:1s;
+}
+
+
+.Admin_Panel .Admin_LogIn-btn {
+
+    margin:10vh 2vh 0 12vh;
+    padding:0 2vh;
+    width:18vh;
+    height:3.5vh;
+    font-size:2vh;
+    font-family:sans-serif;
+    font-style:italic;
+    font-weight:bolder;
+    background-color:black;
+    color:#FFF;
+    border:0;
+    border-radius:1vh;
+    float:left;
+    transition-duration:1s;
+    cursor:pointer;
+}
+.Admin_Panel .Admin_LogIn-btn:hover {
+
+    background-color:white;
+    color:black;
+    transition-duration:1s;
+}
+
+.Admin_Panel .forget-lnk-btn {
+
+    margin:-20vh 2vh 0 12vh;
+    font-size:1.5vh;
+    font-family:sans-serif;
+    font-style:italic;
+    font-weight:bolder;
+    list-style-type:none;
+    color:#0d03ff;
+    border:0;
+    transition-duration:1s;
+    position:absolute;
+    z-index:1;
+}
+.Admin_Panel .forget-lnk-btn:hover {
+
+    color:#f00;
+    
+}
+
+
+
+
+
+
+
+.Admin  .Forget-Panel {
+
+    margin:20vh 0 0 40vh;
+    padding:5vh 0;
+    width:60vh;
+    min-height:20vh;
+    line-height:10vh;
+    letter-spacing:0.5vh;
+    border-radius:4vh;
+    box-shadow:inset 0vh 1vh 2vh 1vh #000;
+    background:rgba(192,192,192,0.70);
+    position:absolute;
+}
+.Forget-Panel h2{
+    
+    margin:0;
+    padding:0;
+    font-size:10vh;
+    font-family:sans-serif;
+    font-weight:bolder;
+    font-style:italic;
+    color:#0d03ff;
+    text-shadow:1vh 0.5vh 0.5vh rgba(0,0,0,0.40);
+    text-align:center;
+
+
+}
+.Forget-Panel h4{
+    
+    margin:0 0 0 10vh;
+    padding:0;
+    font-size:3vh;
+    font-family:sans-serif;
+    font-weight:bolder;
+    font-style:italic;
+    color:#FFF;
+    text-align:start;
+}
+.Forget-Panel .ForgetTxtBox {
+
+    margin:0 4vh 0 8vh;
+    padding:1vh 2vh;
+    width:40vh;
+    height:1.5vh;
+    font-size:2vh;
+    font-family:sans-serif;
+    font-style:italic;
+    background-color:rgba(91, 41, 3 , 1);
+    color:#FFF;
+    border:0;
+    border:0.4vh solid rgba(0,0,0,0.40);
+    border-radius:1vh;
+    transition-duration:1s;
+}
+.Forget-Panel .ForgetTxtBox:focus {
+
+    border-bottom:0.5vh solid rgba(91, 41, 3 , 1);
+    background-color:black;
+    color:white;
+    transition-duration:1s;
+}
+.Forget-Panel .btn-complete{
+
+    margin:10vh 2vh 0 12vh;
+    padding:0 2vh;
+    width:30vh;
+    height:3.5vh;
+    font-size:2vh;
+    font-family:sans-serif;
+    font-style:italic;
+    font-weight:bolder;
+    background-color:rgba(239, 235, 232 , 0.50);
+    color:rgb(0, 0, 0);
+    border:0;
+    border-radius:1vh;
+    float:left;
+    transition-duration:1s;
+}
+.Forget-Panel .btn-complete:hover{
+
+    background-color:white;
+    color:black;
+    transition-duration:1s;
+    cursor:pointer;
+}
+.Forget-Panel .lbl_Error {
+
+    margin:3vh 0 0 10vh;
+    font-size:2vh;
+    font-family:sans-serif;
+    font-style:normal;
+    font-weight:bolder;
+    color:red;
+
+
+}
+
+
+
+
+
+.Admin  .Que-Ans-Panel {
+
+    margin:10vh 0 0 40vh;
+    padding:5vh 0;
+    width:70vh;
+    min-height:10vh;
+    line-height:5vh;
+    letter-spacing:0.5vh;
+    border-radius:4vh;
+    box-shadow:inset 0vh 1vh 2vh 1vh #000;
+    background:rgba(192,192,192,0.70);
+    position:absolute;
+}
+
+
+
+.Que-Ans-Panel .lbl_question{
+    
+    margin:0 10vh;
+    padding:0;
+    font-size:2vh;
+    font-family:sans-serif;
+    font-weight:bolder;
+    font-style:italic;
+    text-align:center;
+    color:#FFF;
+    text-align:start;
+}
+
+.Que-Ans-Panel .Que_Ans_TxtBox {
+
+    margin:0 7vh 0 7vh;
+    padding:1vh 3vh;
+    width:50vh;
+    height:1.5vh;
+    font-size:2vh;
+    font-family:sans-serif;
+    font-style:italic;
+    background-color:rgba(91, 41, 3 , 1);
+    color:#FFF;
+    border:0;
+    border:0.4vh solid rgba(0,0,0,0.40);
+    border-radius:1vh;
+    transition-duration:1s;
+}
+.Que-Ans-Panel .Que_Ans_TxtBox:focus {
+
+    border-bottom:0.5vh solid rgba(91, 41, 3 , 1);
+    background-color:black;
+    color:white;
+    transition-duration:1s;
+}
+.Que-Ans-Panel .lbl_error2{
+    
+    margin:0 10vh 0 10vh;
+    padding:0;
+    font-size:2vh;
+    font-family:sans-serif;
+    font-weight:bolder;
+    font-style:italic;
+    text-align:center;
+    color:#f00;
+    text-align:start;
+    display:block;
+}
+.Que-Ans-Panel .btn-continue2{
+
+    margin:10vh 2vh 0 15vh;
+    padding:0 2vh;
+    width:40vh;
+    height:3.5vh;
+    font-size:2vh;
+    font-family:sans-serif;
+    font-style:italic;
+    font-weight:bolder;
+    background-color:rgba(239, 235, 232 , 0.50);
+    color:rgb(0, 0, 0);
+    border:0;
+    border-radius:1vh;
+    float:left;
+    transition-duration:1s;
+}
+.Que-Ans-Panel .btn-continue2:hover{
+
+    background-color:white;
+    color:black;
+    transition-duration:1s;
+    cursor:pointer;
+}
+
+
+
+
+.Admin-Page 
+{
+    margin:0;
+	padding:0;
+	min-width:100vh;
+	height:100vh;
+	background-color:#000;
+	overflow:hidden;
+	border-radius:4vh;
+	background-color:rgba(91, 41, 3 , 1);
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+
+}
+.Admin-Page h1 
+{
+    margin:5vh 0 0 10vh;
+    padding:0;
+    font-size:2vh;
+    font-weight:700;
+    text-align:justify;
+    color:#FFF;
+    float:none;
+}
+.Admin-Page .Lbl_Admin_Name 
+{
+    margin:4vh 0 0 20vh;
+    font-size:4vh;
+    font-weight:bolder;
+    letter-spacing:2vh;
+    color:rgb(242, 245, 10);
+}
+.Admin-Page .Admin-Page-Img 
+{
+    margin:10vh 20vh 0 30vh;
+    padding:0;
+    width:10vh;
+    height:10vh;
+    float:left;
+}
+
+
+.HomePage 
+{
+    margin:0;
+	padding:0;
+	min-width:100vh;
+	height:100vh;
+	background-color:#000;
+	overflow:hidden;
+	border-radius:4vh;
+	background-color:rgba(91, 41, 3 , 1);
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+
+}
+#HomePage-h1 
+{
+    margin:0;
+    padding:0;
+    font-size:6vh;
+    font-weight:bolder;
+    font-style:italic;
+    text-align:center;
+    color:red;
+    text-decoration:underline;
+}
+.HomePage-h2 
+{
+    margin:10vh 5vh 0 30vh;
+    padding:0;
+    font-size:3vh;
+    font-weight:bold;
+    font-style:italic;
+    text-align:center;
+    color:white;
+    float:left;
+}
+.HomePage-TextBoxes 
+{
+    margin:10vh 0 0 0;
+    padding:0 1vh;
+    width:30vh;
+    min-height:3vh;
+    font-size:1.5vh;
+    font-weight:300;
+    font-style:italic;
+    border:0.4vh solid #FFF;
+    border-radius:1vh;
+    overflow:hidden;
+    background-color:transparent;
+}
+.HomePage-Browse 
+{
+    margin:9.5vh 20vh 0 0;
+    padding:0.5vh 2vh;
+    width:20vh;
+    min-height:1.5vh;
+    font-size:1.5vh;
+    font-weight:bold;
+    font-style:italic;
+    color:red;
+    border:0.3vh solid rgba(0,0,0,0.40);
+    border-radius:1vh;
+    background-color:transparent;
+    float:right;
+}
+.HomePage-BtnUpdate 
+{
+    margin:5vh 0 0 50vh;
+    width:20vh;
+    height:3.5vh;
+    font-size: 1.5vh;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    border-radius: 1vh;
+    border:0;
+    background-color: #666;
+    transition-duration:1s;
+}
+.HomePage-BtnUpdate:hover 
+{    
+    color: red;
+    border: 0.4vh solid #FFF;
+    border-radius: 1.3vh;
+    background-color: #000;
+    transition-duration:0.5s;
+    cursor:pointer;
+}
+.HomePage-Label 
+{
+    margin:10vh 0 0 50vh;
+    font-size: 2vh;
+    font-weight: bolder;
+    font-style: normal;
+    color: red;
+}
+
+
+
+
+.AboutPage 
+{
+    margin: 0;
+    padding: 0;
+    min-width: 100vh;
+    height: 100vh;
+    background-color: #000;
+    overflow: hidden;
+    border-radius: 4vh;
+    background: radial-gradient(black,rgba(91, 41, 3, 1),rgba(91, 41, 3, 1),black,rgba(91, 41, 3, 1));
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.AboutPage h1
+{
+    margin:3vh auto;
+    font-size:6vh;
+    font-weight:bolder;
+    font-style:italic;
+    text-align:center;
+    color:red;
+    text-decoration:underline;
+}
+.AboutPage h2
+{
+    margin:5vh 5vh 0 30vh;
+    font-size:2vh;
+    font-weight:600;
+    font-style:normal;
+    text-align:start;
+    color:white;
+    float:left;
+}
+.AboutPage .TextBoxes
+{
+    margin:5vh 0 0 0;
+    padding:0.1vh 1vh;
+    width:40vh;
+    font-size:2vh;
+    font-weight:600;
+    font-style:italic;
+    text-align:start;
+    color:white;
+    border:0;
+    border-bottom:0.2vh solid White;
+    border-left:0.1vh solid Black;
+    border-right:0.1vh solid black;
+    border-top:0.1vh solid white;
+    border-radius:2vh;
+    background-color:transparent;
+    transition-duration:0.5s;
+    overflow:hidden;
+}
+.AboutPage .TextBoxes:hover
+{
+    transition-duration:0.5s;
+    border-bottom:0.2vh solid red;
+    border-left:0.1vh solid Silver;
+    border-right:0.1vh solid Silver;
+    border-top:0.1vh solid red;
+    border-radius:2vh;
+}
+.AboutPage .TextBoxes:focus
+{
+    border-bottom:0.3vh solid red;
+    border-left:0;
+    border-right:0;
+    border-top:0;
+    border-radius:2vh;
+    transition-duration:0.5s;
+}
+.AboutPage .LinkButton
+{
+   margin:10vh 50vh;
+   padding:0;
+   font-size:2vh;
+   font-weight:600;
+   font-style:normal;
+   text-align:start;
+   color:skyblue;
+   text-decoration:none;
+}
+.AboutPage .btn-Submit
+{
+   margin:8vh 50vh;
+   padding:1vh 1vh;
+   width:20vh;
+   font-size:1.8vh;
+   font-weight:bold;
+   font-style:normal;
+   text-align:center;
+   color:white;
+   background-color:black;
+   border:0;
+   border-radius:2vh;
+   text-decoration:none;
+   cursor:pointer;
+   transition-duration:1s;
+}
+.AboutPage .btn-Submit:hover
+{
+   color:black;
+   font-size:1.8vh;
+   font-weight:bold;
+   font-style:normal;
+   text-align:center;
+}
+.AboutPage .lbl_Message
+{
+   margin:30vh 0 0 50vh;
+   color:red;
+   font-size:2vh;
+   font-weight:bolder;
+   font-style:normal;
+}
+.ClassRooms 
+{
+    margin: 0;
+    padding: 0;
+    min-width: 100vh;
+    height: 100vh;
+    overflow: hidden;
+    border-radius: 4vh;
+    background: radial-gradient(rgba(0, 0, 0, 0.7),black,rgba(0, 0, 0, 0.7),black,rgba(0, 0, 0, 0.7));
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ClassRooms .Box
+{ 
+    margin: 2vh 0 0 10vh;
+    padding: 0;
+    width: 40%;
+    height: 35%;
+    background-color:transparent;
+    border:0.5vh solid rgba(239, 235, 232 , 0.50);
+    float:left;
+    border-radius:4vh;
+}
+.ClassRooms h1
+{
+    margin:3vh auto;
+    font-size:6vh;
+    font-weight:bolder;
+    font-style:italic;
+    text-align:center;
+    color:red;
+    text-decoration:underline;
+    transition-duration:1s;
+}
+.ClassRooms .Box h2
+{
+    margin:3vh 0 0 4vh;
+    font-size:2.5vh;
+    font-weight:bold;
+    font-style:normal;
+    text-align:start;
+    color:wheat;
+    float:left;
+    transition-duration:1s;
+}
+.ClassRooms .Box .Para_TxtBox
+{
+    margin:5vh 2vh 2vh 5vh;
+    padding:1vh 1vh;
+    width:40vh;
+    height:18vh;
+    max-width:40vh;
+    max-height:18vh;
+    font-size:2vh;
+    font-weight:600;
+    font-style:normal;
+    text-align:start;
+    color:white;
+    border-radius:4vh;
+    overflow:hidden;
+    border:0.5vh double #FFF;
+    background-color:transparent;
+    transition-duration:1s;
+}
+.ClassRooms .Box .Heading_TxtBox
+{
+    margin:2vh 0 0 4vh;
+    padding:0 1vh 0 1vh;
+    width:25vh;
+    height:3vh;
+    font-size:2vh;
+    font-weight:700;
+    font-style:italic;
+    text-align:start;
+    color:white;
+    border-radius:4vh;
+    overflow:hidden;
+    border:0.5vh double #FFF;
+    background-color:transparent;
+    float:left;
+    transition-duration:1s;
+    display:block;
+}
+.ClassRooms .btn-Submit
+{
+   margin:3vh 0 0 60vh;
+   padding:1vh 1vh;
+   width:20vh;
+   font-size:1.8vh;
+   font-weight:bold;
+   font-style:normal;
+   text-align:center;
+   color:black;
+   background-color:silver;
+   border:0;
+   border-radius:2vh;
+   text-decoration:none;
+   cursor:pointer;
+   transition-duration:1s;
+}
+.ClassRooms .btn-Submit:hover
+{
+   color:white;
+   font-size:1.8vh;
+   font-weight:bold;
+   font-style:normal;
+   text-align:center;
+}
+.ClassRooms .lbl_Message
+{
+   margin:3vh 0 0 10vh;
+   padding:1vh 1vh;
+   width:20vh;
+   font-size:1.8vh;
+   font-weight:bolder;
+   font-style:normal;
+   text-align:start;
+   color:red;
+   text-transform:capitalize;
+}
+
+
+
+
+.Services 
+{
+    margin: 0;
+    padding: 0;
+    min-width: 100vh;
+    height: 100vh;
+    overflow: hidden;
+    border-radius: 4vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: myanimation;
+    animation-duration: 20s;
+    animation-delay:0.1s;
+    animation-direction:alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+
+}
+@keyframes myanimation {
+
+     0% {background: repeating-radial-gradient(brown , black,black , black , brown , black);}
+    25% {background: repeating-radial-gradient(green , black,black , black , green , black);}
+    50% {background: repeating-radial-gradient(white , black,black , black , white , black);}
+    75% {background: repeating-radial-gradient(red , black,black , black , red , black);}
+    100% {background: repeating-radial-gradient(brown , black,black , black , brown , black);}
+    
+
+}
+
+
+.Services h1
+{
+    margin:3vh auto;
+    font-size:6vh;
+    font-weight:bolder;
+    font-style:italic;
+    text-align:center;
+    color:red;
+    text-decoration:underline;
+    transition-duration:1s;
+}
+.Services h2
+{
+    margin: 1vh 0 5vh 10vh;
+    padding: 0;
+    font-size:2vh;
+    text-align:center;
+    font-weight:bolder;
+    font-style:italic;
+    transition-duration:1s;
+    color:white;
+    float:left;
+}
+.Services .Heading_TxtBox
+{
+    margin: 2vh 0 5vh 5vh;
+    padding:0 1vh;
+    width:20vh;
+    height:4vh;
+    max-width:30vh;
+    max-height:10vh;
+    font-family:Arial;
+    font-size:1.8vh;
+    font-weight:300;
+    font-style:italic;
+    color:white;
+    text-decoration:none;
+    text-transform:capitalize;
+    border:0;
+    border-bottom:0.2vh dashed #fff ;
+    border-radius:2.3vh;
+    background-color:transparent;
+    transition-duration:1s;
+}
+.Services .Heading_TxtBox:focus
+{
+    margin:2vh 0 5vh 4vh;
+    padding:0.5vh 1.2vh;
+    height:1.5vh;
+    border:0.1vh dotted #FFF;
+    border-radius:1.2vh;
+    transition-duration:0.5s;
+}
+.Services .Child_Box
+{
+    margin: 0 0 3vh 5vh;
+    padding: 0vh 10vh;
+    width: 100vh;
+    height: 25vh;
+    background-color: rgba(239, 235, 232 , 0.50);
+    border-radius: 80px;
+   
+    transition-duration:1s;
+}
+.Services .Child_Box:hover
+{
+    box-shadow:inset 5px 5px 60px 20px #000;
+    transition-duration:1s;
+}
+.Services .Child_Box h3
+{
+    margin: 2vh 20vh 0 14vh;
+    padding: 0;
+    font-size:2.5vh;
+    text-align:left;
+    font-weight:bolder;
+    font-style:italic;
+    float:left;
+    color:aqua;
+}
+.Services .Child_Box .img-para-1
+{
+    margin: 3vh 0 0 10vh;
+    padding: 0;
+    width:50vh;
+    height:10vh;
+    border-radius:3vh;
+    border:0.1vh solid rgba(4, 3, 81, 0.69);
+    font-size:3vh;
+    text-align:right;
+    font-weight:bolder;
+    font-style:italic;
+    background-color:rgba(235, 227, 227, 0.67);
+    float:left;
+    transition-duration:1s;
+}
+.Services .Child_Box .img-para-1:hover
+{
+    box-shadow:inset 5px 5px 60px 20px rgba(13, 1, 1, 0.69);
+    border-radius:4vh;
+    border:0.2vh groove rgba(13, 1, 1, 0.69);
+    transition-duration:1s;
+}
+.Services .Child_Box .img-upload
+{
+    margin: 3vh 0 0 0;
+    padding: 0;
+    display:none;
+}
+
+.Services .Child_Box .Label
+{
+    margin: 5vh 0 0 10vh;
+    padding: 1.5vh 0;
+    min-width:15vh;
+    min-height:2vh;
+    font-size:2.5vh;
+    text-align:center;
+    font-weight:300;
+    font-style:normal;
+    color:white;
+    background-color:rgba(13, 1, 1, 0.69);
+    border:0;
+    border-radius:3vh;
+    float:left;
+    transition-duration:1s;
+}
+.Services .Child_Box .Label:hover
+{
+    font-weight:bolder;
+    color:blue;
+    background-color:rgba(13, 1, 1, 0.20);
+    border:0;
+    box-shadow:inset 3px 2px 30px 20px #FFF;
+    border-radius:3vh;
+    float:left;
+    transition-duration:1s;
+    cursor:pointer;
+}
+.Services .Child_Box .TxtBoxes
+{
+    margin:2vh 0 0 4vh;
+    padding:0 1vh;
+    width:30vh;
+    height:5vh;
+    max-width:30vh;
+    resize:horizontal;
+    font-family:Arial;
+    font-size:1.5vh;
+    font-weight:300;
+    font-style:italic;
+    color:white;
+    text-decoration:none;
+    text-transform:capitalize;
+    border:0;
+    border-bottom:0.2vh dashed #fff ;
+    border-radius:2.3vh;
+    overflow:hidden;
+    background-color:transparent;
+    transition-duration:1s;
+}
+.Services .Child_Box .TxtBoxes:focus
+{
+    padding:0.5vh 1.2vh;
+    border:0.1vh dotted #FFF;
+    border-radius:1.2vh;
+    transition-duration:0.5s;
+}
+.Services .Box_1
+{
+    margin: 10vh 0 0 5vh;
+    padding: 0vh 0 2vh 0;
+    width: 40vh;
+    height: 35vh;
+    background-color: rgba(239, 235, 232 , 0.50);
+    border-radius: 80px;
+    transition-duration:1s;
+    color:aqua;
+    float:left;
+}
+.Services .Box_1:hover
+{
+    box-shadow:inset 5px 5px 60px 20px #000;
+    transition-duration:1s;
+}
+.Services .Box_1 h3
+{
+    margin: 4vh 0 0 1vh;
+    padding: 0;
+    font-size:2.5vh;
+    text-align:center;
+    font-weight:bolder;
+    font-style:italic;
+}
+.Services .Box_1 .img-para-1
+{
+    margin: 3vh 0 0 4vh;
+    padding: 0;
+    width:10vh;
+    height:10vh;
+    border-radius:3vh;
+    border:0.2vh groove rgba(4, 3, 81, 0.69);
+    font-size:3vh;
+    text-align:right;
+    font-weight:bolder;
+    font-style:italic;
+    float:left;
+}
+.Services .Box_1 .img-para-1:hover
+{
+    box-shadow:inset 5px 5px 60px 20px rgba(13, 1, 1, 0.69);
+    border-radius:4vh;
+    border:0.2vh groove rgba(13, 1, 1, 0.69);
+    transition-duration:1s;
+}
+.Services .Box_1 .img-upload
+{
+    margin: 3vh 0 0 0;
+    padding: 0;
+    display:none;
+}
+
+.Services .Box_1 .Label
+{
+    margin: 5vh 0 0 5vh;
+    padding: 1.5vh 0;
+    min-width:15vh;
+    min-height:2vh;
+    font-size:2.5vh;
+    text-align:center;
+    font-weight:300;
+    font-style:normal;
+    color:white;
+    background-color:rgba(13, 1, 1, 0.69);
+    border:0;
+    border-radius:3vh;
+    float:left;
+    transition-duration:1s;
+}
+.Services .Box_1 .Label:hover
+{
+    font-weight:bolder;
+    color:blue;
+    background-color:rgba(13, 1, 1, 0.20);
+    border:0;
+    box-shadow:inset 3px 2px 30px 20px #FFF;
+    border-radius:3vh;
+    float:left;
+    transition-duration:1s;
+    cursor:pointer;
+}
+.Services .Box_1 .TxtBoxes
+{
+    margin:4vh 0 0 4vh;
+    padding:0 1vh;
+    width:30vh;
+    height:5vh;
+    max-width:30vh;
+    resize:horizontal;
+    font-family:Arial;
+    font-size:1.5vh;
+    font-weight:300;
+    font-style:italic;
+    color:white;
+    text-decoration:none;
+    text-transform:capitalize;
+    border:0;
+    border-bottom:0.2vh dashed #fff ;
+    border-radius:2.3vh;
+    overflow:hidden;
+    background-color:transparent;
+    transition-duration:1s;
+}
+.Services .Box_1 .TxtBoxes:focus
+{
+    padding:0.5vh 1.2vh;
+    border:0.1vh dotted #FFF;
+    border-radius:1.2vh;
+    transition-duration:0.5s;
+}
+.Services .Box_2
+{
+    margin: 0 0 0 18vh;
+    padding: 0vh 0 2vh 0;
+    width: 100vh;
+    height: 30vh;
+    background-color: rgba(62, 56, 56, 0.83);
+    border-radius: 80px;
+    box-shadow: 5px 5px 60px 20px #666;
+    transition-duration:1s;
+}
+
+.Services .Box_2 h2
+{
+    margin: 3vh 10vh 0 10vh;
+    padding: 0;
+    font-size:3vh;
+    text-align:center;
+    font-weight:bolder;
+    font-style:italic;
+    float:left;
+    transition-duration:1s;
+}
+.Services .Box_2 .TxtBoxes
+{
+    margin:3vh 5vh 0 5vh;
+    padding:2vh 1vh;
+    width:30vh;
+    height:10vh;
+    max-width:30vh;
+    max-height:15vh;
+    min-width:20vh;
+    font-size:1.5vh;
+    font-family:Arial;
+    font-weight:300;
+    color:white;
+    font-style:italic;
+    text-decoration:none;
+    text-transform:capitalize;
+    border:0;
+    border-bottom:0.2vh dashed #fff ;
+    border-radius:2.3vh;
+    overflow:hidden;
+    background-color:transparent;
+    float:left;
+    transition-duration:0.5s;
+}
+.Services .Box_2 .TxtBoxes:focus
+{
+    padding:0.5vh 1.2vh;
+    border:0.1vh dotted #FFF;
+    border-radius:1.2vh;
+    transition-duration:0.5s;
+}
+
+.Services .img-upload
+{
+    width:0;
+    height:0;
+    display:none;
+}
+.Services .Label
+{
+    margin: 0 0 0 0;
+    padding: 1.5vh 0;
+    width:5vh;
+    min-height:2vh;
+    font-size:2.5vh;
+    text-align:center;
+    font-weight:300;
+    font-style:normal;
+    color:white;
+    background-color:rgba(13, 1, 1, 0.69);
+    border:0;
+    border-radius:3vh;
+    float:left;
+    transition-duration:1s;
+}
+.Services .Label:hover
+{
+    font-weight:bolder;
+    color:blue;
+    background-color:rgba(13, 1, 1, 0.20);
+    border:0;
+    box-shadow:inset 3px 2px 30px 20px #FFF;
+    border-radius:3vh;
+    float:left;
+    transition-duration:1s;
+    cursor:pointer;
+}
+.Services .Btn-Update
+{
+    margin: 2vh 30vh;
+    padding: 0vh 0 0 0;
+    width: 80vh;
+    height: 5vh;
+    font-size:2.5vh;
+    font-weight:bolder;
+    letter-spacing:2em;
+    text-transform:uppercase;
+    color:white;
+    border:0.2vh solid rgba(138, 137, 137, 0.82);
+    background-color: #000;
+    border-radius: 8px;
+    cursor:pointer;
+    transition-duration:1s;
+}
+.Services .Btn-Update:hover
+{
+    border:0.2vh solid rgba(91, 41, 3 , 1);
+    background-color: rgba(8, 20, 92, 0.66);
+    border-radius: 8px;
+    box-shadow:inset 5px 5px 16px 12px #666;
+    transition-duration:1s;
+}
+
+
+.Services .lbl_Message
+{
+    margin: 0 0 0 50vh;
+    padding: 0;
+    font-size:2.5vh;
+    text-align:center;
+    font-weight:300;
+    font-style:normal;
+    color:red;
+    text-transform:capitalize;
+    transition-duration:1s;
+}

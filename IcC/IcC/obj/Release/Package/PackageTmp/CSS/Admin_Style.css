@@ -1,0 +1,356 @@
+﻿
+.Admin 
+{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100vh;
+	background-color:#CCC;
+	position:absolute;
+	border-radius:4vh;
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Admin-Pic-1 {
+
+    margin:0;
+    width:100%;
+    height:100%;
+    position:absolute;
+    border-radius:4vh 4vh 4vh 4vh;
+    opacity:0;
+}
+#Admin-Pic-2 {
+
+    margin:0;
+    width:100%;
+    height:100%;
+    position:absolute;
+    opacity:0;
+    border-radius:4vh 4vh 4vh 4vh;
+}
+#Admin-Pic-3 {
+
+    margin:0;
+    width:100%;
+    height:100%;
+    position:absolute;
+    opacity:0;
+    border-radius:4vh 4vh 4vh 4vh;
+}
+
+
+
+
+
+
+
+
+
+.Admin  .Admin_Panel {
+
+    margin:10vh 0 0 30vh;
+    padding:10vh;
+    min-width:50vh;
+    min-height:50vh;
+    font-family:sans-serif;
+    font-size:2vh;
+    font-weight:bold;
+    color:black;
+    line-height:10vh;
+    letter-spacing:0.5vh;
+    font-style:italic;
+    border-radius:4vh;
+    box-shadow:inset 0vh 1vh 2vh 1vh #000;
+    background: rgba(0, 0, 0, 0.7);
+    position:absolute;
+}
+.Admin_Panel .Admin_LogIn {
+
+    margin:0 0 0 0;
+    padding:0 3vh 0 3vh;
+    min-width:60vh;
+    min-height:20vh;
+    background-color:rgba(0,0,0,0.40);
+    color:#FFF;
+    border-radius:2vh;
+}
+.Admin_Panel .AdminTxtBox {
+
+    margin:0 2vh 0 2vh;
+    padding:0 2vh;
+    width:20vh;
+    height:2.5vh;
+    font-size:2vh;
+    font-family:sans-serif;
+    font-style:italic;
+    background-color:transparent;
+    color:#FFF;
+    border:0;
+    border-bottom:0.4vh solid #000;
+    border-radius:1vh;
+    transition-duration:1s;
+}
+.Admin_Panel .AdminTxtBox:focus {
+
+    width:30vh;
+    border-bottom:0.5vh solid #f00;
+    background-color:black;
+    color:white;
+    transition-duration:1s;
+}
+
+
+.Admin_Panel .Admin_LogIn-btn {
+
+    margin:10vh 2vh 0 12vh;
+    padding:0 2vh;
+    width:18vh;
+    height:3.5vh;
+    font-size:2vh;
+    font-family:sans-serif;
+    font-style:italic;
+    font-weight:bolder;
+    background-color:black;
+    color:#FFF;
+    border:0;
+    border-radius:1vh;
+    float:left;
+    transition-duration:1s;
+    cursor:pointer;
+}
+.Admin_Panel .Admin_LogIn-btn:hover {
+
+    background-color:white;
+    color:black;
+    transition-duration:1s;
+}
+
+.Admin_Panel .forget-lnk-btn {
+
+    margin:-20vh 2vh 0 12vh;
+    font-size:1.5vh;
+    font-family:sans-serif;
+    font-style:italic;
+    font-weight:bolder;
+    list-style-type:none;
+    color:#0d03ff;
+    border:0;
+    transition-duration:1s;
+    position:absolute;
+    z-index:1;
+}
+.Admin_Panel .forget-lnk-btn:hover {
+
+    color:#f00;
+    
+}
+
+
+
+
+
+
+
+.Admin  .Forget-Panel {
+
+    margin:20vh 0 0 40vh;
+    padding:5vh 0;
+    width:60vh;
+    min-height:20vh;
+    line-height:10vh;
+    letter-spacing:0.5vh;
+    border-radius:4vh;
+    box-shadow:inset 0vh 1vh 2vh 1vh #000;
+    background:rgba(192,192,192,0.70);
+    position:absolute;
+}
+.Forget-Panel h2{
+    
+    margin:0;
+    padding:0;
+    font-size:10vh;
+    font-family:sans-serif;
+    font-weight:bolder;
+    font-style:italic;
+    color:#0d03ff;
+    text-shadow:1vh 0.5vh 0.5vh rgba(0,0,0,0.40);
+    text-align:center;
+
+
+}
+.Forget-Panel h4{
+    
+    margin:0 0 0 10vh;
+    padding:0;
+    font-size:3vh;
+    font-family:sans-serif;
+    font-weight:bolder;
+    font-style:italic;
+    color:#FFF;
+    text-align:start;
+}
+.Forget-Panel .ForgetTxtBox {
+
+    margin:0 4vh 0 8vh;
+    padding:1vh 2vh;
+    width:40vh;
+    height:1.5vh;
+    font-size:2vh;
+    font-family:sans-serif;
+    font-style:italic;
+    background-color:rgba(91, 41, 3 , 1);
+    color:#FFF;
+    border:0;
+    border:0.4vh solid rgba(0,0,0,0.40);
+    border-radius:1vh;
+    transition-duration:1s;
+}
+.Forget-Panel .ForgetTxtBox:focus {
+
+    border-bottom:0.5vh solid rgba(91, 41, 3 , 1);
+    background-color:black;
+    color:white;
+    transition-duration:1s;
+}
+.Forget-Panel .btn-complete{
+
+    margin:10vh 2vh 0 12vh;
+    padding:0 2vh;
+    width:30vh;
+    height:3.5vh;
+    font-size:2vh;
+    font-family:sans-serif;
+    font-style:italic;
+    font-weight:bolder;
+    background-color:rgba(239, 235, 232 , 0.50);
+    color:rgb(0, 0, 0);
+    border:0;
+    border-radius:1vh;
+    float:left;
+    transition-duration:1s;
+}
+.Forget-Panel .btn-complete:hover{
+
+    background-color:white;
+    color:black;
+    transition-duration:1s;
+    cursor:pointer;
+}
+.Forget-Panel .lbl_Error {
+
+    margin:3vh 0 0 10vh;
+    font-size:2vh;
+    font-family:sans-serif;
+    font-style:normal;
+    font-weight:bolder;
+    color:red;
+
+
+}
+
+
+
+
+
+.Admin  .Que-Ans-Panel {
+
+    margin:10vh 0 0 40vh;
+    padding:5vh 0;
+    width:70vh;
+    min-height:10vh;
+    line-height:5vh;
+    letter-spacing:0.5vh;
+    border-radius:4vh;
+    box-shadow:inset 0vh 1vh 2vh 1vh #000;
+    background:rgba(192,192,192,0.70);
+    position:absolute;
+}
+
+
+
+.Que-Ans-Panel .lbl_question{
+    
+    margin:0 10vh;
+    padding:0;
+    font-size:2vh;
+    font-family:sans-serif;
+    font-weight:bolder;
+    font-style:italic;
+    text-align:center;
+    color:#FFF;
+    text-align:start;
+}
+
+.Que-Ans-Panel .Que_Ans_TxtBox {
+
+    margin:0 7vh 0 7vh;
+    padding:1vh 3vh;
+    width:50vh;
+    height:1.5vh;
+    font-size:2vh;
+    font-family:sans-serif;
+    font-style:italic;
+    background-color:rgba(91, 41, 3 , 1);
+    color:#FFF;
+    border:0;
+    border:0.4vh solid rgba(0,0,0,0.40);
+    border-radius:1vh;
+    transition-duration:1s;
+}
+.Que-Ans-Panel .Que_Ans_TxtBox:focus {
+
+    border-bottom:0.5vh solid rgba(91, 41, 3 , 1);
+    background-color:black;
+    color:white;
+    transition-duration:1s;
+}
+.Que-Ans-Panel .lbl_error2{
+    
+    margin:0 10vh 0 10vh;
+    padding:0;
+    font-size:2vh;
+    font-family:sans-serif;
+    font-weight:bolder;
+    font-style:italic;
+    text-align:center;
+    color:#f00;
+    text-align:start;
+    display:block;
+}
+.Que-Ans-Panel .btn-continue2{
+
+    margin:10vh 2vh 0 15vh;
+    padding:0 2vh;
+    width:40vh;
+    height:3.5vh;
+    font-size:2vh;
+    font-family:sans-serif;
+    font-style:italic;
+    font-weight:bolder;
+    background-color:rgba(239, 235, 232 , 0.50);
+    color:rgb(0, 0, 0);
+    border:0;
+    border-radius:1vh;
+    float:left;
+    transition-duration:1s;
+}
+.Que-Ans-Panel .btn-continue2:hover{
+
+    background-color:white;
+    color:black;
+    transition-duration:1s;
+    cursor:pointer;
+}

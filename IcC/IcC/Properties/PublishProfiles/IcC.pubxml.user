@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Data/IcC_DataBase.mdf">
+      <publishTime>02/16/2018 20:42:46</publishTime>
+    </File>
+    <File Include="App_Data/IcC_DataBase_log.ldf">
+      <publishTime>02/16/2018 20:42:46</publishTime>
+    </File>
+    <File Include="bin/IcC.dll">
+      <publishTime>02/16/2018 20:47:22</publishTime>
+    </File>
+    <File Include="CSS/Admin_Style.css">
+      <publishTime>07/05/2017 04:44:24</publishTime>
+    </File>
+    <File Include="CSS/Home_Style.css">
+      <publishTime>07/05/2017 04:44:28</publishTime>
+    </File>
+    <File Include="default.aspx">
+      <publishTime>02/16/2018 20:46:37</publishTime>
+    </File>
+    <File Include="images/20 Years Celebration.png">
+      <publishTime>07/05/2017 04:44:30</publishTime>
+    </File>
+    <File Include="images/About_Background.jpg">
+      <publishTime>07/05/2017 04:44:38</publishTime>
+    </File>
+    <File Include="images/Admin_Pic/Amazing_1.jpg">
+      <publishTime>07/05/2017 04:47:06</publishTime>
+    </File>
+    <File Include="images/Admin_Pic/Amazing_2.jpg">
+      <publishTime>07/05/2017 04:47:10</publishTime>
+    </File>
+    <File Include="images/Admin_Pic/Amazing_3.jpg">
+      <publishTime>07/05/2017 04:47:20</publishTime>
+    </File>
+    <File Include="images/Admin_Pic/Amazing_Pic_1.jpg">
+      <publishTime>07/05/2017 04:47:26</publishTime>
+    </File>
+    <File Include="images/Admin_Pic/amazing_Pic_2.jpg">
+      <publishTime>07/05/2017 04:47:32</publishTime>
+    </File>
+    <File Include="images/Admin_Pic/Amazing_Pic_3.jpg">
+      <publishTime>07/05/2017 04:47:40</publishTime>
+    </File>
+    <File Include="images/Admin_Pic/Amazing_Pic_4.jpg">
+      <publishTime>07/05/2017 04:47:44</publishTime>
+    </File>
+    <File Include="images/Admin_Pic/Amazing_Pic_5.jpg">
+      <publishTime>07/05/2017 04:47:50</publishTime>
+    </File>
+    <File Include="images/Admin_Pic/Amazing_Pic_6.jpg">
+      <publishTime>07/05/2017 04:47:54</publishTime>
+    </File>
+    <File Include="images/Admin_Pic/eye_Icon.png">
+      <publishTime>07/05/2017 04:47:56</publishTime>
+    </File>
+    <File Include="images/black-background.jpg">
+      <publishTime>07/05/2017 04:44:48</publishTime>
+    </File>
+    <File Include="images/Bulb_Icon.png">
+      <publishTime>07/05/2017 04:44:52</publishTime>
+    </File>
+    <File Include="images/Child_Img.png">
+      <publishTime>07/05/2017 04:45:00</publishTime>
+    </File>
+    <File Include="images/classroom-1-tn.jpg">
+      <publishTime>07/05/2017 04:45:04</publishTime>
+    </File>
+    <File Include="images/classroom-1.jpg">
+      <publishTime>07/05/2017 04:45:08</publishTime>
+    </File>
+    <File Include="images/classroom-2-tn.jpg">
+      <publishTime>07/05/2017 04:45:12</publishTime>
+    </File>
+    <File Include="images/classroom-2.jpg">
+      <publishTime>07/05/2017 04:45:16</publishTime>
+    </File>
+    <File Include="images/classroom-3-tn.jpg">
+      <publishTime>07/05/2017 04:45:20</publishTime>
+    </File>
+    <File Include="images/classroom-3.jpg">
+      <publishTime>07/05/2017 04:45:22</publishTime>
+    </File>
+    <File Include="images/classroom-4-tn.jpg">
+      <publishTime>07/05/2017 04:45:28</publishTime>
+    </File>
+    <File Include="images/classroom-4.jpg">
+      <publishTime>07/05/2017 04:45:38</publishTime>
+    </File>
+    <File Include="images/classroom-5-tn.jpg">
+      <publishTime>07/05/2017 04:45:40</publishTime>
+    </File>
+    <File Include="images/classroom-5.jpg">
+      <publishTime>07/05/2017 04:45:44</publishTime>
+    </File>
+    <File Include="images/classroom-6-tn.jpg">
+      <publishTime>07/05/2017 04:45:50</publishTime>
+    </File>
+    <File Include="images/classroom-6.jpg">
+      <publishTime>07/05/2017 04:45:54</publishTime>
+    </File>
+    <File Include="images/classroom-7-tn.jpg">
+      <publishTime>07/05/2017 04:45:56</publishTime>
+    </File>
+    <File Include="images/classroom-7.jpg">
+      <publishTime>07/05/2017 04:46:00</publishTime>
+    </File>
+    <File Include="images/loading.gif">
+      <publishTime>07/05/2017 04:46:12</publishTime>
+    </File>
+    <File Include="images/New_Icon.png">
+      <publishTime>07/05/2017 04:46:16</publishTime>
+    </File>
+    <File Include="images/Pencil_Icon.png">
+      <publishTime>07/05/2017 04:46:18</publishTime>
+    </File>
+    <File Include="images/Scholarship.jpg">
+      <publishTime>07/05/2017 04:46:26</publishTime>
+    </File>
+    <File Include="images/Teacher-1.jpg">
+      <publishTime>07/05/2017 04:46:30</publishTime>
+    </File>
+    <File Include="images/Teacher-2.jpg">
+      <publishTime>07/05/2017 04:46:36</publishTime>
+    </File>
+    <File Include="images/Teacher-3.jpg">
+      <publishTime>07/05/2017 04:46:40</publishTime>
+    </File>
+    <File Include="images/Teacher-4.jpg">
+      <publishTime>07/05/2017 04:46:44</publishTime>
+    </File>
+    <File Include="JQuery/JQ.js">
+      <publishTime>07/05/2017 04:46:48</publishTime>
+    </File>
+    <File Include="JQuery/Pages/Home.js">
+      <publishTime>07/05/2017 04:48:00</publishTime>
+    </File>
+    <File Include="Secure/Admin_Page.aspx">
+      <publishTime>07/05/2017 04:46:54</publishTime>
+    </File>
+    <File Include="Secure/Web.config">
+      <publishTime>07/05/2017 04:47:02</publishTime>
+    </File>
+    <File Include="Slider/images/classroom-1-tn.jpg">
+      <publishTime>07/05/2017 04:48:24</publishTime>
+    </File>
+    <File Include="Slider/images/classroom-1.jpg">
+      <publishTime>07/05/2017 04:48:28</publishTime>
+    </File>
+    <File Include="Slider/images/classroom-2-tn.jpg">
+      <publishTime>07/05/2017 04:48:32</publishTime>
+    </File>
+    <File Include="Slider/images/classroom-2.jpg">
+      <publishTime>07/05/2017 04:48:34</publishTime>
+    </File>
+    <File Include="Slider/images/classroom-3-tn.jpg">
+      <publishTime>07/05/2017 04:48:38</publishTime>
+    </File>
+    <File Include="Slider/images/classroom-3.jpg">
+      <publishTime>07/05/2017 04:48:42</publishTime>
+    </File>
+    <File Include="Slider/images/classroom-4-lightbox.jpg">
+      <publishTime>07/05/2017 04:48:58</publishTime>
+    </File>
+    <File Include="Slider/images/classroom-4-tn.jpg">
+      <publishTime>07/05/2017 04:49:02</publishTime>
+    </File>
+    <File Include="Slider/images/classroom-4.jpg">
+      <publishTime>07/05/2017 04:49:04</publishTime>
+    </File>
+    <File Include="Slider/images/classroom-5-tn.jpg">
+      <publishTime>07/05/2017 04:49:08</publishTime>
+    </File>
+    <File Include="Slider/images/classroom-5.jpg">
+      <publishTime>07/05/2017 04:49:12</publishTime>
+    </File>
+    <File Include="Slider/images/classroom-6-tn.jpg">
+      <publishTime>07/05/2017 04:49:16</publishTime>
+    </File>
+    <File Include="Slider/images/classroom-6.jpg">
+      <publishTime>07/05/2017 04:49:20</publishTime>
+    </File>
+    <File Include="Slider/images/classroom-7-tn.jpg">
+      <publishTime>07/05/2017 04:49:24</publishTime>
+    </File>
+    <File Include="Slider/images/classroom-7.jpg">
+      <publishTime>07/05/2017 04:49:26</publishTime>
+    </File>
+    <File Include="Slider/sliderengine/amazingslider.js">
+      <publishTime>07/05/2017 04:49:32</publishTime>
+    </File>
+    <File Include="Slider/sliderengine/initslider-1.js">
+      <publishTime>07/05/2017 04:49:40</publishTime>
+    </File>
+    <File Include="Slider/sliderengine/jquery.js">
+      <publishTime>07/05/2017 04:49:44</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>02/16/2018 20:47:23</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

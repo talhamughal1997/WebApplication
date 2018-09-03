@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7DD678CE-4D44-4A98-AC6D-5B1E4539C8DC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IcC</RootNamespace>
+    <AssemblyName>IcC</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\IcC_DataBase.mdf" />
+    <Content Include="App_Data\IcC_DataBase_log.ldf">
+      <DependentUpon>IcC_DataBase.mdf</DependentUpon>
+    </Content>
+    <Content Include="CSS\Admin_Style.css" />
+    <Content Include="CSS\Home_Style.css" />
+    <Content Include="default.aspx" />
+    <Content Include="images\20 Years Celebration.png" />
+    <Content Include="images\About_Background.jpg" />
+    <Content Include="images\Admin_Pic\About_Us.png" />
+    <Content Include="images\Admin_Pic\Amazing_1.jpg" />
+    <Content Include="images\Admin_Pic\Amazing_2.jpg" />
+    <Content Include="images\Admin_Pic\Amazing_3.jpg" />
+    <Content Include="images\Admin_Pic\Amazing_Pic_1.jpg" />
+    <Content Include="images\Admin_Pic\amazing_Pic_2.jpg" />
+    <Content Include="images\Admin_Pic\Amazing_Pic_3.jpg" />
+    <Content Include="images\Admin_Pic\Amazing_Pic_4.jpg" />
+    <Content Include="images\Admin_Pic\Amazing_Pic_5.jpg" />
+    <Content Include="images\Admin_Pic\Amazing_Pic_6.jpg" />
+    <Content Include="images\Admin_Pic\Classroom_Icons.png" />
+    <Content Include="images\Admin_Pic\Comments_Icon.png" />
+    <Content Include="images\Admin_Pic\eye_Icon.png" />
+    <Content Include="images\Admin_Pic\home-icon.png" />
+    <Content Include="images\Admin_Pic\Services_Icon.png" />
+    <Content Include="images\Admin_Pic\Teachers_Icon.png" />
+    <Content Include="images\black-background.jpg" />
+    <Content Include="images\Bulb_Icon.png" />
+    <Content Include="images\child_1.jpg" />
+    <Content Include="images\child_2.jpg" />
+    <Content Include="images\child_3.jpg" />
+    <Content Include="images\child_4.jpg" />
+    <Content Include="images\child_5.jpg" />
+    <Content Include="images\child_6.jpg" />
+    <Content Include="images\Child_Img.png" />
+    <Content Include="images\classroom-1-tn.jpg" />
+    <Content Include="images\classroom-1.jpg" />
+    <Content Include="images\classroom-2-tn.jpg" />
+    <Content Include="images\classroom-2.jpg" />
+    <Content Include="images\classroom-3-tn.jpg" />
+    <Content Include="images\classroom-3.jpg" />
+    <Content Include="images\classroom-4-tn.jpg" />
+    <Content Include="images\classroom-4.jpg" />
+    <Content Include="images\classroom-5-tn.jpg" />
+    <Content Include="images\classroom-5.jpg" />
+    <Content Include="images\classroom-6-tn.jpg" />
+    <Content Include="images\classroom-6.jpg" />
+    <Content Include="images\classroom-7-tn.jpg" />
+    <Content Include="images\classroom-7.jpg" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\New_Icon.png" />
+    <Content Include="images\Pencil_Icon.png" />
+    <Content Include="images\Scholarship.jpg" />
+    <Content Include="images\Teacher-1.jpg" />
+    <Content Include="images\Teacher-2.jpg" />
+    <Content Include="images\Teacher-3.jpg" />
+    <Content Include="images\Teacher-4.jpg" />
+    <Content Include="JQuery\JQ.js" />
+    <Content Include="JQuery\Pages\Home.js" />
+    <Content Include="Secure\FrmAboutUs.aspx" />
+    <Content Include="Secure\Admin_Page.aspx" />
+    <Content Include="Secure\FrmClassRooms.aspx" />
+    <Content Include="Secure\FrmComments.aspx" />
+    <Content Include="Secure\FrmHome.aspx" />
+    <Content Include="Secure\FrmOurTeachers.aspx" />
+    <Content Include="Secure\FrmServices.aspx" />
+    <Content Include="Slider\images\classroom-1-tn.jpg" />
+    <Content Include="Slider\images\classroom-1.jpg" />
+    <Content Include="Slider\images\classroom-2-tn.jpg" />
+    <Content Include="Slider\images\classroom-2.jpg" />
+    <Content Include="Slider\images\classroom-3-tn.jpg" />
+    <Content Include="Slider\images\classroom-3.jpg" />
+    <Content Include="Slider\images\classroom-4-lightbox.jpg" />
+    <Content Include="Slider\images\classroom-4-tn.jpg" />
+    <Content Include="Slider\images\classroom-4.jpg" />
+    <Content Include="Slider\images\classroom-5-tn.jpg" />
+    <Content Include="Slider\images\classroom-5.jpg" />
+    <Content Include="Slider\images\classroom-6-tn.jpg" />
+    <Content Include="Slider\images\classroom-6.jpg" />
+    <Content Include="Slider\images\classroom-7-tn.jpg" />
+    <Content Include="Slider\images\classroom-7.jpg" />
+    <Content Include="Slider\sliderengine\amazingslider.js" />
+    <Content Include="Slider\sliderengine\initslider-1.js" />
+    <Content Include="Slider\sliderengine\jquery.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClsDataBase.cs" />
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Secure\FrmAboutUs.aspx.cs">
+      <DependentUpon>FrmAboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Secure\FrmAboutUs.aspx.designer.cs">
+      <DependentUpon>FrmAboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Secure\Admin_Page.aspx.cs">
+      <DependentUpon>Admin_Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Secure\Admin_Page.aspx.designer.cs">
+      <DependentUpon>Admin_Page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Secure\FrmClassRooms.aspx.cs">
+      <DependentUpon>FrmClassRooms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Secure\FrmClassRooms.aspx.designer.cs">
+      <DependentUpon>FrmClassRooms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Secure\FrmComments.aspx.cs">
+      <DependentUpon>FrmComments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Secure\FrmComments.aspx.designer.cs">
+      <DependentUpon>FrmComments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Secure\FrmHome.aspx.cs">
+      <DependentUpon>FrmHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Secure\FrmHome.aspx.designer.cs">
+      <DependentUpon>FrmHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Secure\FrmOurTeachers.aspx.cs">
+      <DependentUpon>FrmOurTeachers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Secure\FrmOurTeachers.aspx.designer.cs">
+      <DependentUpon>FrmOurTeachers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Secure\FrmServices.aspx.cs">
+      <DependentUpon>FrmServices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Secure\FrmServices.aspx.designer.cs">
+      <DependentUpon>FrmServices.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Secure\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Properties\PublishProfiles\IcC.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:2709/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
